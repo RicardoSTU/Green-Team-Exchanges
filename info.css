@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #299be7, #117fe6,#273bee  );
+    opacity: 7;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header { 
+    background: linear-gradient(to right, #299be7, #117fe6,#273bee  );
+    margin-top:55px;
+    background-position: center;
+    background-size: 840px;
+    background-repeat: no-repeat;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#greenTeamInfo h2 {
+    color: #4CAF50;
+}
+
+#photoGallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo-container {
+    width: 30%;
+    height: 200px;
+    background-color: #b2dfdb;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Add this CSS to the info.css file */
+    body {
+        color: black; /* Change the text color to black */
+    }
+
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
